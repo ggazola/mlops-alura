@@ -17,7 +17,8 @@ import pickle
 import os
 
 # ler o arquivo 'modelo.sav'
-modelo = pickle.load(open('../../models/modelo.sav', 'rb') )
+# modelo = pickle.load(open('../../models/modelo.sav', 'rb') )
+modelo = pickle.load(open('models/modelo.sav', 'rb') )
 
 # forçar a entrada dos dados
 colunas = ['tamanho', 'ano', 'garagem']  # parsing dos dados
